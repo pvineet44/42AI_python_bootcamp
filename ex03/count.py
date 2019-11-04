@@ -32,8 +32,7 @@ def analyze(text):
 
 
 def text_analyzer(*multi_text):
-    """This function counts the number of upper characters, lower characters,
-    punctuation and spaces in a given text."""
+    """ Calls anaylze(text)."""
     if (len(multi_text) == 0):
         text = input("What is the text to analyse?\n")
         analyze(text)
